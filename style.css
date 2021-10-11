@@ -36,8 +36,9 @@ nav {
 }
 
 .container,
-.info-container {
-    width: 1320px;
+.info-container,
+.quote-container {
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -63,7 +64,7 @@ nav {
 }
 
 .hero-img {
-    max-width: 50%;
+    max-width: 55%;
 }
 
 button {
@@ -83,8 +84,12 @@ button {
 
 .info-cards {
     display: flex;
-    gap: 100px;
+    gap: 60px;
     text-align: center;
+}
+
+.info {
+    flex: 1 1 0px;
 }
 
 .info-img {
@@ -99,4 +104,28 @@ button {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937
+}
+
+/* Quote Section */
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.credit {
+    align-self: flex-end;
+    font-weight: bold;
 }
