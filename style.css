@@ -35,7 +35,8 @@ nav {
     font-size: 18px;
 }
 
-.container {
+.container,
+.info-container {
     width: 1320px;
     margin: 0 auto;
 }
@@ -72,4 +73,30 @@ button {
     color: white;
     border-radius: 5px;
     font-weight: bold;
+}
+
+/* INFO SECTION */
+
+.info-container {
+    padding: 60px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+}
+
+.info-img {
+    max-width: 100%;
+    border-radius: 25px;
+    margin-bottom: 16px;
+}
+
+.info-header {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937
 }
