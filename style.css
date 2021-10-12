@@ -106,7 +106,7 @@ button {
     color: #1f2937
 }
 
-/* Quote Section */
+/* QUOTE SECTION */
 .quote-section {
     background-color: #e5e7eb;
 }
@@ -128,4 +128,27 @@ button {
 .credit {
     align-self: flex-end;
     font-weight: bold;
+}
+
+/* CALL TO ACTION SECTION */
+
+.call-to-action-container {
+    background-color: #3882f6;
+    color: #fff;
+    margin: 100px 0;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.call-to-action-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.call-to-action-btn {
+    border: #fff 2px solid;
+    padding: 4px 24px;
 }
